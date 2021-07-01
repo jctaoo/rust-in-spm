@@ -1,0 +1,6 @@
+module greetings {
+    header "./libgreetings.h"
+    link "c"
+    link "greetings"
+    export *
+}
