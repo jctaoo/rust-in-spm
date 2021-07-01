@@ -25,7 +25,8 @@ swift run -Xlinker -L./Sources/libgreetings # build and run
    Open `swift/Greetings.xcodeproj`.
 
 3. Regenerate Xcode Project
-   The folling command generate xcodeproj by the config file `swift/greetings.xcconfig`
+   
+The folling command generate xcodeproj by the config file `swift/greetings.xcconfig`
 
 ```bash
 swift package generate-xcodeproj --xcconfig-overrides ./greetings.xcconfig
